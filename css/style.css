@@ -1,1 +1,10 @@
-ECHO is on.
+body
+{background: #252525;
+color: #00FFFF}
+
+h1,h2
+{
+	text-align: center;
+	color: #FF00FF
+	font-size:100p;
+}
