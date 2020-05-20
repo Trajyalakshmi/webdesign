@@ -7,7 +7,7 @@
 }
 .child
 {
-	width: 30%;
+	width: 90%;
 	border: 3px dotted #FFF0F0;
 	padding: 2%;
 	margin: 1%;
@@ -50,4 +50,17 @@
 	height: 30px;
 	border-radius: 50%;
 
+}
+@media only screen and (min-width:320px)
+and (max-width: 420px){/*For creating responsiveness*/
+.child
+{
+	width: 90%;
+	border: 3px dotted #FFF0F0;
+	padding: 2%;
+	margin: 1%;
+	box-shadow: -3px -3px 8px 8px #0F0FF0;
+	border-radius: 0% 2% 5%; 
+	text-align: center;
+}
 }
