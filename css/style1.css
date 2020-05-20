@@ -1,0 +1,53 @@
+.parent
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.child
+{
+	width: 30%;
+	border: 3px dotted #FFF0F0;
+	padding: 2%;
+	margin: 1%;
+	box-shadow: -3px -3px 8px 8px #0F0FF0;
+	border-radius: 0% 2% 5%; 
+	text-align: center;
+}
+.imagesize
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border-style: double dashed;
+	border-color: #00FFF0
+	border-width: 2%
+}
+.main
+{
+	color: #02F2F0
+}
+.role
+{
+	font-style: italic;
+	font-family: sans-serif;
+	color: brown;
+}
+.contact
+{
+	display: block;
+}
+.mailsize
+{
+	width: 30px;
+	height: 30px;
+
+}
+.contactsize
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+
+}
