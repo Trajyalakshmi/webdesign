@@ -1,25 +1,9 @@
-.parent
-{
-	/*display: flex;*/
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.child
-{
-	margin-top: 5%;
-	width: 90%;
-	border: 3px dotted #FFF0F0;
-	padding: 2%;
-	margin: 1%;
-	box-shadow: 3px 3px 3px 3px cyan;
-	border-radius: 5%; 
-	text-align: center;
-}
+
 .imagesize
 {
 	width: 100px;
 	height: 100px;
+	align-content: center;
 	border-radius: 50%;
 	border-style: double dashed;
 	border-color: #00FFF0
