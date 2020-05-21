@@ -31,7 +31,7 @@ Boot Strapping
 		</h4>
 		<h5 class="text-primary"> Heading-5
 		</h5> -->
-		<div class="row justify-content-center" style="border:2px double #fff">
+		<!-- <div class="row justify-content-center" style="border:2px double #fff">
 			<div class="col-md-4 col-lg-8 col-sm-12" style="border:2px dotted blue">
 				<p>Row1 Column1</p>
 			</div>
@@ -57,6 +57,25 @@ Boot Strapping
 				<p>Row3 Column2</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
+	<div class="container" style="margin-top: 3%">
+		<div class="row">
+			<div class="col-md-8 col-lg-6 col-sm-12">
+				<form method="post">
+					<input type="text"
+					class="form-control"
+					placeholder="name" required><br>
+					<input type="email"
+					class="form-control"
+					placeholder="Email" required><br>
+					<select class="form-control" required>
+						<option value="" selected disabled>select city</option>
+						<option value="2" class="option option-info">Nellore</option>	
+						<option value="3" class="option option-info">Vijayawada</option>
+						<option value="4" class="option option-info">Vizag</option>
+					
+					</select><br>
+					<input type="submit" name="Submit" class="btn btn-primary" value="Register">
+				</form>
 </body>
 </html>
