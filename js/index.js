@@ -102,6 +102,10 @@
 	i2.textContent="Completed M.Tech from JNTUA in 2011";
 	u.appendChild(i2);
 
+	var i3=document.createElement("li");
+	i3.textContent="Registered into PhD in Pondicherry University in 2020";
+	u.appendChild(i3);
+
 	rightSide.appendChild(document.createElement("hr"));
 
 	var we=document.createElement("section");
