@@ -7,7 +7,7 @@
 {
 	width: 100%;
 	flex-wrap: wrap;
-	background-color: #aa00aa;
+	background-color: cyan;
 	display: flex;
 	justify-content: space-between;
 }

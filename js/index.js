@@ -102,10 +102,6 @@
 	i2.textContent="Completed M.Tech from JNTUA in 2011";
 	u.appendChild(i2);
 
-	var i3=document.createElement("li");
-	i3.textContent="Awarded PhD from SPMVV in 2018";
-	u.appendChild(i3);
-
 	rightSide.appendChild(document.createElement("hr"));
 
 	var we=document.createElement("section");
