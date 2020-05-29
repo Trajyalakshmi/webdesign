@@ -4,7 +4,6 @@
 	h1.textContent="Resume";
 	body.appendChild(h1);
 
-
 	var main=document.createElement("section");
 	main.classList.add("main");
 	body.appendChild(main);
@@ -16,10 +15,10 @@
 	var image=document.createElement("section");
 	image.classList.add("image");
 	leftSide.appendChild(image);
+
 	var img=document.createElement("img");
 	img.src="image/avatar.svg";
 	img.alt="Rajyalakshmi profile";
-
 	image.appendChild(img);
 
 	leftSide.appendChild(document.createElement("hr"));
@@ -40,7 +39,6 @@
 	email.textContent="raajivvit@gmail.com";
 	profile.appendChild(email);
 
-	leftSide.appendChild(document.createElement("hr"));
 
 	var address=document.createElement("section");
 	address.classList.add("address");
