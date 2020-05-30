@@ -77,7 +77,7 @@
 	co.appendChild(coj);
 
 	var obj=document.createElement("h4");
-	obj.textContent="-To Work in a meaningful and challenging position that enables me to develop myself as a professional and permit scope for advancement";
+	obj.textContent="-To Work upto best of my talent in the organization and prove myself as a professional and permit scope for advancement";
 	co.appendChild(obj);
 
 	rightSide.appendChild(document.createElement("hr"));
