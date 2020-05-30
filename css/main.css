@@ -1,51 +1,46 @@
-#root>h1
-{
-	text-align: center;
-	color: brown;
+#root>h1{
+    text-align: center;
 }
-.main
-{
-	width: 100%;
-	flex-wrap: wrap;
-	background-color: cyan;
-	display: flex;
-	justify-content: space-between;
-}
-.leftside
-{
-	width: 20%;
-	background-color: #00ff55;
-	text-align: center;
 
+.main{
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.profile>h2
-{
-	color: red;
-}
-.image>img
-{
-	width: 50%;
-	height: 30%;
-	border-radius: 40%;
-	justify-content: center;
 
+/* left side */
+.leftSide{
+    width: 20%;
+    background-color: cadetblue;
+    text-align: center;
 }
-.rightside
-{
-	background-color: orange;
-	width: 79%;
+
+/* Styles for Imgage */
+.image>img{
+    width: 100%;
+    border-radius:40%;
 }
-@media(min-device-width:320px) and 
-(max-device-width:480px)
-{
-	.leftside,.rightside
-	{
-		width:100%;
-	}
-	.profile
-	{
-		width: 100%;
-		display: flex;
-		justify-content: space-around;
-	}
+
+/* right side */
+.rightSide{
+    background-color: coral;
+    width: 79%;
+}
+
+
+@media (min-device-width:320px) and (max-device-width:480px){
+    .leftSide,
+    .rightSide{
+        width: 100%;
+    }
+
+    .details{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
 }
